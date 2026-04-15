@@ -1,0 +1,13 @@
+// Barrel export для удобного импорта компонентов
+export { default as Header } from './Header/Header'
+export { default as Hero } from './Hero/Hero'
+export { default as Catalog } from './Catalog/Catalog'
+export { default as WhyUs } from './WhyUs/WhyUs'
+export { default as Testimonials } from './Testimonials/Testimonials'
+export { default as HowToBuy } from './HowToBuy/HowToBuy'
+export { default as FinalCTA } from './FinalCTA/FinalCTA'
+export { default as Footer } from './Footer/Footer'
+export { default as ProductModal } from './ProductModal/ProductModal'
+export { default as FilterBar } from './Catalog/FilterBar/FilterBar'
+export { default as MotorcycleCard } from './Catalog/MotorcycleCard/MotorcycleCard'
+export { default as MotorcycleGrid } from './Catalog/MotorcycleGrid/MotorcycleGrid'

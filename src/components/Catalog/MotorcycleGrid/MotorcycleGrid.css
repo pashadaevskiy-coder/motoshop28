@@ -1,0 +1,20 @@
+/* Стили для MotorcycleGrid */
+
+/* Адаптивные отступы */
+@media (max-width: 640px) {
+  .motorcycle-grid {
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .motorcycle-grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .motorcycle-grid {
+    gap: 2rem;
+  }
+}

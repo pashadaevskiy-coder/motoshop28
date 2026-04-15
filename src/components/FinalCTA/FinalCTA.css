@@ -1,0 +1,15 @@
+/* Стили для FinalCTA */
+
+/* Медленное пульсирование для привлечения внимания */
+@keyframes pulseSlow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(255, 69, 0, 0.7);
+  }
+  50% {
+    box-shadow: 0 0 0 15px rgba(255, 69, 0, 0);
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulseSlow 2s infinite;
+}
